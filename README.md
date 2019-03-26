@@ -57,6 +57,18 @@ Run e2e tests
 npm run test:e2e
 ```
 
+If you meet error:
+
+```bash
+Error: ChromeDriver did not start within 5000ms
+```
+
+You may set global proxy. And you have to ignore proxy for localhost.
+
+```bash
+export {no_proxy,NO_PROXY}=127.0.0.1
+```
+
 ## Packaging
 
 We use [Electron builder](https://www.electron.build/) to build and package the application. By default you can run the following to package for your current platform:
