@@ -77,7 +77,7 @@ In case you want to get rid of this, you can removing the following from `packag
 Also remove `tslint-config-prettier` from the `extends` section in `tslint.json`.
 
 ## About this project
-It is forked from project [electron-typescript-react](https://github.com/Robinfr/electron-react-typescript).
+It's forked from project [electron-typescript-react](https://github.com/Robinfr/electron-react-typescript).
 
 ## License
 MIT ©
