@@ -54,6 +54,13 @@ You can make builds for specific platforms (or multiple platforms) by using the 
 
 ```bash
 npm run dist -- -mwl
+
+// Windows
+npm run dist -- -win
+// Mac
+npm run dist -- -mac
+// Linux
+npm run dist -- -linux
 ```
 
 ## Husky and Prettier
@@ -70,7 +77,7 @@ In case you want to get rid of this, you can removing the following from `packag
 Also remove `tslint-config-prettier` from the `extends` section in `tslint.json`.
 
 ## About this project
-It is forked from project [electron-typescript-react](git@github.com:Robinfr/electron-react-typescript.git).
+It is forked from project [electron-typescript-react](https://github.com/Robinfr/electron-react-typescript).
 
 ## License
 MIT ©

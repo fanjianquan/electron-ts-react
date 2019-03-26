@@ -19,11 +19,6 @@
     "test:e2e": "jest '(\\/test\\/e2e/).*'",
     "pack": "npm run build && electron-builder --dir",
     "dist": "npm run build && electron-builder",
-    "pack:all": "npm run build && electron-builder -mwl",
-    "pack:mac": "npm run build && electron-builder -mac",
-    "pack:win": "npm run build && electron-builder -win",
-    "pack:linux": "rnpm run build && electron-builder -linux",
-    "private:build:all": "electron-builder -mwl",
     "postinstall": "electron-builder install-app-deps"
   },
   "lint-staged": {
